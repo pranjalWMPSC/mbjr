@@ -1,0 +1,154 @@
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-grow: 2;
+}
+
+.right-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.main-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 28px;
+}
+
+.secondary-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 12%;
+}
+
+.main-content > div > h1 {
+  color: #184e97;
+}
+
+.main-content > div > h2 {
+  color: #0073ff;
+}
+
+.main-content > img {
+  width: 380px;
+}
+
+.content {
+  text-align: center;
+  align-items: center;
+}
+
+.content > h2 {
+  color: #0073ff;
+  font-size: 42px;
+  margin-top: 1%;
+}
+
+.action {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-primary {
+  padding: 5%;
+  align-items: center;
+  color: black;
+  background-color: #87dbf7;
+  color: #0073ff;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
+  -moz-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
+  box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
+}
+
+.right-container {
+  width: 50%;
+}
+
+.container-new {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+.right-container > img {
+  height: 550px;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2%;
+}
+
+.bottom-content > img {
+  height: 200px;
+  padding: 0px 120px 0px 120px;
+}
+
+.right-content {
+  background-color: #87dbf7;
+  color: #184e97;
+  padding: 1%;
+  height: 280px;
+}
+
+.right-content > h2 {
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.right-content > h4 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+
+
+
+.bottom-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top-content > h3 {
+  color: #184e97;
+}
+
+.bottom-content > h3 {
+  color: #184e97;
+}
+
+.header{
+  margin-top: 4%;
+  text-align: center;
+  color: #184e97;
+}
+
+.img-collage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-collage > img {
+  width: 300px;
+}

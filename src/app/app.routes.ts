@@ -8,6 +8,6 @@ export const routes: Routes = [
   {path: "home", component: HomeComponent},
   {path: "projects", component: FootprintsComponent},
   {path: "about", component: AboutComponent},
-  {path: "contactUs", component: ContatUsComponent},
+  {path: "contact", component: ContatUsComponent},
   { path: '',   redirectTo: '/home', pathMatch: 'full' }
 ];

@@ -81,6 +81,7 @@
   align-items: center;
   text-align: center;
   width: 100%;
+  animation: first-animation 1.7s ease-in-out infinite;
 }
 
 .btn-primary {
@@ -96,7 +97,9 @@
   -webkit-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
   -moz-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
   box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
+  cursor: pointer;
 }
+
 
 
 .right-container > img {
@@ -179,4 +182,24 @@
     align-items: center;
     flex-wrap: wrap;
   }
+}
+
+@keyframes first-animation {
+  0% { transform: scale(1,1);}
+  50% { transform: scale(0.8,0.8); }
+  100% { transform: scale(1,1); }
+  }
+
+  @keyframes second-animation {
+  0% { transform: scale(1,1); }
+  70% { transform: scale(0.7,0.7); }
+  80% { transform: scale(0.9,0.9); }
+  100% { transform: scale(1,1);  }
+  }
+
+.action :hover {
+  color: #0073ff;
+  background-color: white;
+  border: black 1px solid;
+  animation: second-animation 1.1s ease-in-out infinite;
 }

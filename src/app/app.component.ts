@@ -11,5 +11,5 @@ import { FooterComponent } from "./pages/footer/footer.component";
     imports: [RouterOutlet, NavComponent, FooterComponent]
 })
 export class AppComponent {
-  title = 'wmpsc-mbjr';
+  title = 'Mai Bhi Jal Rakshak';
 }

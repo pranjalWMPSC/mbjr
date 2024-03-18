@@ -9,5 +9,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  openForm(){
+    console.log("Working")
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScBs7mbMbOgAy0VKETAgjChY0ILSUJ4GWXvyuVB1TfLrv_zkw/viewform";
+  }
 }

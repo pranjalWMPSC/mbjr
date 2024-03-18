@@ -1,0 +1,35 @@
+.footer {
+  background-color: #87dbf7;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #184e97;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #184e97;
+}
+
+.left-image > a > img {
+  height: 60px;
+  object-fit: contain;
+  mix-blend-mode: normal;
+  aspect-ratio: 3 / 2;
+}
+
+
+/* .footer-right >  {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #184e97;
+} */

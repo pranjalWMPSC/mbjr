@@ -96,6 +96,7 @@
   -webkit-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
   -moz-box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
   box-shadow: 10px 10px 19px -5px rgba(0,0,0,0.55);
+  cursor: pointer;
 }
 
 
@@ -179,4 +180,10 @@
     align-items: center;
     flex-wrap: wrap;
   }
+}
+
+.btn-primary:hover{
+  color: #0073ff;
+  background-color: white;
+  border: black 1px solid;
 }

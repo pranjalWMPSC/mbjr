@@ -9,7 +9,10 @@
 }
 
 .header > h2 {
-  color: #184e97;
+  background: #0a00b9;
+  background: linear-gradient(to right, #0a00b9 0%, #0c0ccc 16%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 32px;
   font-weight: bold;
 }

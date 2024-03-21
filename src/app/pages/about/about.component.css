@@ -9,7 +9,10 @@
 }
 
 .header > h1 {
-  color: #184e97;
+  background: #0a00b9;
+  background: linear-gradient(to right, #0a00b9 0%, #0c0ccc 16%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 32px;
   font-weight: bold;
 }
@@ -17,12 +20,31 @@
 .container {
   margin: 2%;
   padding: 2%;
-  background-color: #87dbf7;
-  color: black;
+  background: rgb(10, 0, 185);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(10, 0, 185, 1) 0%,
+    rgba(12, 12, 204, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(10, 0, 185, 1) 0%,
+    rgba(12, 12, 204, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(10, 0, 185, 1) 0%,
+    rgba(12, 12, 204, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a00b9",endColorstr="#00d4ff",GradientType=1);
+  color: white;
   border-radius: 12px;
 }
 
-.container > p{
+.container > p {
   text-align: justify;
   line-height: 1.8;
   font-size: 22px;
